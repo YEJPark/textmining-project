@@ -1,3 +1,5 @@
+#terminal에서 pip install treform 
+
 import pandas as pd
 import treform as ptm
 
