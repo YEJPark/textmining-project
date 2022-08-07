@@ -94,4 +94,4 @@ print(df1.head(40))
 #     graph_builder.summarize_centrality(limit=display_limit)
 #     title = '동시출현 기반 그래프'
 #     file_name = 'test.png'
-#     graph_builder.plot_graph(title, file=file_name)
+#     graph_builder.plot_graph(title, file=file_name) 
