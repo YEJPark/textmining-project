@@ -2,7 +2,7 @@ import pandas as pd
 import treform as ptm
 from sklearn.feature_extraction.text import CountVectorizer
 
-df = pd.read_csv('C:/Users/yejin/PycharmProjects/lec-text-mining/sample_data/patents_new_sample_2.csv').fillna("")
+df = pd.read_csv('C:/Users/yejin/PycharmProjects/lec-text-mining/sample_data/papers_new.csv').fillna("")
 df['text'] = df['text'].str.lower()
 corpus = df.iloc[:,1]
 
